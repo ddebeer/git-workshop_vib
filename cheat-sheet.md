@@ -61,5 +61,8 @@
 ## Tagging
 
 - `HEAD` is the most recent commit, hence the HEAD changes with every new commit
-- `git tag <name>` give the current commit a name of choice: a "tag"
-- `git tag` lists the all the "tags"
+- `git tag <name>`   => give the current commit a name of choice: a "tag"
+- `git tag <name>`   => give the current commit a name of choice: a "tag"
+- `git tag <name> <commit ID>`  => give the commit of choice a name.
+- `git push --tags`  => push all the tags to the remote repository
+- `git tag -d <name>` => delete the tag  BUT not on github, should be deleted manually.
