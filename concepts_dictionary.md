@@ -81,3 +81,7 @@
 - when you start with a local repository and want to link/create a remote 
   repository, a new remote repository should be created, but it should be 
   completely empty (no README, no .gitignore, ...)
+
+## Collaborating 
+
+- First invite people to collaborate in a specific repository. Then create a new folder where you will clone the corresponding repository.
