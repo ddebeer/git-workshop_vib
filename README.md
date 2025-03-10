@@ -8,4 +8,4 @@ More specifically the focus is on **git** and ***GitHub***
 
 2. A list of commands and how to use them can be found in [cheat-sheet.md](./cheat-sheet.md)
    
-3. A list of usefull unix commands 
+3. A list of useful unix commands 
