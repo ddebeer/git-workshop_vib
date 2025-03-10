@@ -55,6 +55,8 @@
 - back up for local repository
 - allows collaboration (others can access files and request changes,...)
 - should be linked to the local repository: "bridge between local and remote repository"
+- the commit history can be "pushed" to the remote repository using the `git push` command.
+- The commit history in the remote repository can be "pulled" from remote to local using the `git pull` command.
 
 
 ## .gitignore
