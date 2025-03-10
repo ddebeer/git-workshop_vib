@@ -46,3 +46,9 @@
 - `git push --set-upstream origin main`  => first push: to create a branch upstream (on the remote repository)
 - `git push -u origin main`              => push form origin (local repository) the branch main
 - `git push`   => send the latest version of the commit history to the remote repository
+
+
+## reverting and restoring
+
+- `git revert <commit ID>` => creates a new commit that is the same as the chosen one
+- `git clone <ssh remote>` => creates a local repositor, creates "the bridge" and pulls the complete project (commit history)
