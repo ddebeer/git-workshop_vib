@@ -15,7 +15,7 @@
 ### Github
 
 - Online repository (remote)
-- Can colect different git pojects
+- Can collect different git projects
 
 
 ## Concepts
@@ -39,4 +39,10 @@
 - "space" where you stage your commits, where you get your files ready 
   to commit to the local repository.
 - Files/folders are stage using `git add <file/folder name>`
+- Especially important when working with multiple files.
+- helps to organize the commits: 
+   - stage multiple files that you commit together (because they or the made changes belong together)
+   - allows you to have meaningful commits
+   - allows you to use meaningful commit messages
+   - allows you to separate changes to files that are unrelated.
 
