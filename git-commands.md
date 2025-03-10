@@ -11,6 +11,7 @@
 ## Git Workflow
 
 - `git status`                => check the status of the files in the current branch
-- `git add <files/folders>`   => stash files/folders of choice
-- `git commit -m "<message>`  => commit the stashed files/folders with a message
+- `git add <files/folders>`   => stage files/folders of choice
+- `git add --all`             => stage all files/folders in the repository
+- `git commit -m "<message>`  => commit the staged files/folders with a message
 -
