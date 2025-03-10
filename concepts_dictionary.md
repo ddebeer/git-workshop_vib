@@ -88,3 +88,25 @@
 1. Make sure you are added as a collaborator to the remote (github) repository
 2. clone the remote repository (ssh) and create a local repository
 3. make changes, stage, commit (with a good message) and push
+
+
+### Conflicts
+
+**when you cannot push (due to a conflict):**
+
+1. pull from the remote repository
+2. fix the conflicts if necessary ("merge")
+    - automatic diff visualizations help to see what is different, and what you can choose.
+
+3. commit the the results
+4. push to the remote repository
+
+
+
+
+#### Avoid conflicts by
+
+- always pulling before comitting/pushing
+- pull often
+- push often
+
