@@ -32,6 +32,7 @@
 - represented as `.git` file in your folder
 - the `git init` command creates the `.git` file
 - `git commit -m "<message>"` commits the staged files with a commit message
+- every commit creates a "snapshot" of the complete projects
 
 ### Staging Area
 
