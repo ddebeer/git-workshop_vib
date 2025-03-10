@@ -54,7 +54,7 @@
 
 - back up for local repository
 - allows collaboration (others can access files and request changes,...)
-- should be linked to the local repository
+- should be linked to the local repository: "bridge between local and remote repository"
 
 
 ## .gitignore
@@ -64,7 +64,7 @@
    - there are templates (for instance on/via github)
    - via expressions
        - *.csv: ignore ale .csv
-       - 
+       - !file.csv: (except this file)
 
 
 

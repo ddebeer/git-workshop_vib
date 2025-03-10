@@ -36,5 +36,13 @@
 
 
 - `git diff <old commit> <new commit>`  => create diff between two commits
-
 - `git show <old commit> <new commit>`  => shows the two file next to each other between two commits
+
+
+## Connect with remote repository
+
+- `git remote add origin git@github.com:ddebeer/<repository name>.git` 
+  => "make a bridge" between local and remote repository (using ssh)
+- `git push --set-upstream origin main`  => first push: to create a branch upstream (on the remote repository)
+- `git push -u origin main`              => push form origin (local repository) the branch main
+- `git push`   => send the latest version of the commit history to the remote repository
