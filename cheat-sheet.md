@@ -58,6 +58,8 @@
 - `git clone <ssh remote>` => clone repository with the corresponding ssh address
 
 
-## 
+## Tagging
 
-- `HEAD` is the most recent commit
+- `HEAD` is the most recent commit, hence the HEAD changes with every new commit
+- `git tag <name>` give the current commit a name of choice: a "tag"
+- `git tag` lists the all the "tags"

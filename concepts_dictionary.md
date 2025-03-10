@@ -97,11 +97,10 @@
 1. pull from the remote repository
 2. fix the conflicts if necessary ("merge")
     - automatic diff visualizations help to see what is different, and what you can choose.
+    - automatically a text editor opens
 
 3. commit the the results
 4. push to the remote repository
-
-
 
 
 #### Avoid conflicts by
@@ -110,3 +109,7 @@
 - pull often
 - push often
 
+
+## Tagging
+
+- use tags to refer to a specific commit: Easy to find, easy to download as .zip
