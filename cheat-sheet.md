@@ -14,5 +14,8 @@
 - `git add <files/folders>`   => stage files/folders of choice
 - `git add --all`             => stage all files/folders in the repository
 - `git add *`                 => stage all files/folders in the repository
+
 - `git commit -m "<message>`  => commit the staged files/folders with a message
+- `git commit `               => commit the staged files/folders with, a text 
+                                 editor will open for a multi-line comment 
 -
