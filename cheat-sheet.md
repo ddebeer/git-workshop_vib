@@ -1,6 +1,10 @@
 # Useful Git Commands
 
 
+## See documentation
+
+- `git <command> --help`  => see the documentation for a commend.
+
 ## Git Configuration
 
 - `git config --global --list`     => check global configurations
@@ -22,3 +26,15 @@
 - `git commit `               => commit the staged files/folders with, a text 
                                  editor will open for a multi-line comment 
 
+## Check versions and changes
+
+- `git log`                => get a list of all the commits in the current branch
+- `git log <file name>`    => get a list of all the commits for a specific file in the current branch
+- `git log --abrev-commit` => get a list of all the commits with an abbreviated commit references
+- `git log -n 3`           => get a list of the last three commits 
+
+
+
+- `git diff <old commit> <new commit>`  => create diff between two commits
+
+- `git show <old commit> <new commit>`  => shows the two file next to each other between two commits

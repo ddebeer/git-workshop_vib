@@ -25,14 +25,7 @@
 - local folder
 - where you work and write code
 
-### Local Repository
 
-- created using `git init`
-- stores all versions and all changes
-- represented as `.git` file in your folder
-- the `git init` command creates the `.git` file
-- `git commit -m "<message>"` commits the staged files with a commit message
-- every commit creates a "snapshot" of the complete projects
 
 ### Staging Area
 
@@ -46,3 +39,43 @@
    - allows you to use meaningful commit messages
    - allows you to separate changes to files that are unrelated.
 
+
+### Local Repository
+
+- created using `git init`
+- stores all versions and all changes
+- represented as `.git` file in your folder
+- the `git init` command creates the `.git` file
+- `git commit -m "<message>"` commits the staged files with a commit message
+- every commit creates a "snapshot" of the complete projects
+
+
+### Remote Repository
+
+- back up for local repository
+- allows collaboration (others can access files and request changes,...)
+- should be linked to the local repository
+
+
+## .gitignore
+
+- a text file that lists all the files and folders that should be ignored by git.
+   - can be listed one by one
+   - there are templates (for instance on/via github)
+   - via expressions
+       - *.csv: ignore ale .csv
+       - 
+
+
+
+## Check Differences in versions
+
+- view the history of the commits using `git log`
+
+
+
+## Important
+
+- when you start with a local repository and want to link/create a remote 
+  repository, a new remote repository should be created, but it should be 
+  completely empty (no README, no .gitignore, ...)
