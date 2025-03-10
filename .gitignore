@@ -1,4 +1,3 @@
 *.Rproj*
 *.jpg
 !onion.jpg
-.gitignore
