@@ -81,3 +81,10 @@
 - when you start with a local repository and want to link/create a remote 
   repository, a new remote repository should be created, but it should be 
   completely empty (no README, no .gitignore, ...)
+
+
+## Collaborating
+
+1. Make sure you are added as a collaborator to the remote (github) repository
+2. clone the remote repository (ssh) and create a local repository
+3. make changes, stage, commit (with a good message) and push
