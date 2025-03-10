@@ -46,8 +46,3 @@
 - `git push --set-upstream origin main`  => first push: to create a branch upstream (on the remote repository)
 - `git push -u origin main`              => push form origin (local repository) the branch main
 - `git push`   => send the latest version of the commit history to the remote repository
-
-
-## go back in history
-
-- `git revert <commit ID>` creates a new commit that is the same as the last commit
