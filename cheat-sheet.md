@@ -73,7 +73,6 @@
 - `git branch <branch name>`   => creates a new branch with a chosen name
 - `git chekcout <branch name>` => jumps to the chosen branch, new commits are
                                   added to that branch.
-- `git chekcout <commit ID>`   => jumps to the chosen commit (i.e., travel in time)
 - `git chekcout HEAD`          => jumps to the most recent commit 
 
 - `git branch -l`              => list the local branches
@@ -83,3 +82,6 @@
 
 - `git push --set-upstream origin <branch name>`  => push new branch and create a corresponding branch remote
 - `git push --al`              => push all commits of all local branches
+
+- `git chekcout <commit ID>`   => jumps to the chosen commit (i.e., travel in time)
+- `git switch -c <new branch>` => create a new branch after traveling to a commit (in the path).
