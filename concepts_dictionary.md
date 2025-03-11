@@ -113,3 +113,24 @@
 ## Tagging
 
 - use tags to refer to a specific commit: Easy to find, easy to download as .zip
+
+
+
+## Branching
+
+A "branch" is an "alternative history", an new path of commits that can 
+  (but does not have to) be merged to the main branch at a later stage.
+- great for experimenting
+- great for collaborations where multiple persons work on the same issue/file
+- after merging, the branch history still exist. Hence, you can go back to commits in this branch
+
+Important, git only *mirrors/reflects* the changes in a specific branch. Hence, a specific
+state in a branch my be different form what you see in a browser. This can be 
+confusing! 
+
+
+### Detached HEAD
+
+When you go back in history, for instance by using `git checkout <commit ID>`, it 
+is possible, BUT NOT ADVISED, to "change the past". If you do this, YOU SHOULD create 
+a new branch. If not, you gat a *detached HEAD*.
