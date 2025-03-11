@@ -89,3 +89,5 @@
 - `git switch -c <new branch>` => create a new branch after traveling to a commit (in the path).
 
 - `git log --graph --all`    => give a visual overview of all the branches
+
+
