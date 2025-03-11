@@ -78,6 +78,8 @@
 
 - `git branch -l`              => list the local branches
 - `git branch -a`              => list all branches, local and remote
+- `git branch -b <new branch>` => create a new branch and jump to it immediately.
+
 
 - `git push --set-upstream origin <branch name>`  => push new branch and create a corresponding branch remote
-
+- `git push --al`              => push all commits of all local branches
