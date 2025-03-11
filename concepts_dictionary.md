@@ -149,3 +149,20 @@ After two branches are merged, it is possible to delete  a branch. Yet this impl
 that a part of the history is lost.
 
 You can delete a branch using `git branch -d <branch name>`.
+
+
+## Forking
+
+`git clone` creates a local "copy" of an online repository.
+`git branch` creates a new "history path", either locally or remotely (i.e., on github)
+`git fork` creates a remote copy of a repository (on gihub) and now you own this 
+forked repository, which you can again clone. But you cannot pull from the 
+original. Yet there is a remaining link. Typically after forking and changes are made,
+a pull request can be used to ask to review and integrate the changes.
+
+Forking is used a lot in community software development.
+
+
+## Creating a website from markdown files
+
+From markdown files on github, a website can be easily made via this [website](https://liascript.github.io/).

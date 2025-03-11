@@ -99,3 +99,11 @@
                                 to be resolved and commited.
 
 - `git branch -d <branch name>` => delete a branch
+
+
+# GITHUB
+
+## Open code space online
+
+If you are on github and hit the "dot"-key on your keyboard, the online
+code editor opens (vs code online).
