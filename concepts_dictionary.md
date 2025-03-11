@@ -114,6 +114,7 @@
 
 - use tags to refer to a specific commit: Easy to find, easy to download as .zip
 
+<<<<<<< HEAD
 
 
 ## Branching
@@ -127,3 +128,8 @@ A "branch" is an "alternative history", an new path of commits that can
 Important, git only *mirrors/reflects* the changes in a specific branch. Hence, a specific
 state in a branch my be different form what you see in a browser. This can be 
 confusing! 
+
+When working in different branches, it is crucial that you are aware in which 
+branch you are working. As only changes in this branch are showed. When checking 
+out to another branch, these changes are not visible anymore. 
+

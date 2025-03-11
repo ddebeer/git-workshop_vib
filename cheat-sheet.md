@@ -67,6 +67,7 @@
 - `git push --tags`  => push all the tags to the remote repository
 - `git tag -d <name>` => delete the tag  BUT not on github, should be deleted manually.
 
+<<<<<<< HEAD
 
 ## Branching
 
@@ -85,3 +86,4 @@
 
 - `git chekcout <commit ID>`   => jumps to the chosen commit (i.e., travel in time)
 - `git switch -c <new branch>` => create a new branch after traveling to a commit (in the path).
+
