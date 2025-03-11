@@ -123,3 +123,7 @@ A "branch" is an "alternative history", an new path of commits that can
 - great for experimenting
 - great for collaborations where multiple persons work on the same issue/file
 - after merging, the branch history still exist. Hence, you can go back to commits in this branch
+
+Important, git only *mirrors/reflects* the changes in a specific branch. Hence, a specific
+state in a branch my be different form what you see in a browser. This can be 
+confusing! 

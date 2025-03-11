@@ -76,4 +76,6 @@
 - `git chekcout <commit ID>`   => jumps to the chosen commit (i.e., travel in time)
 - `git chekcout HEAD`          => jumps to the most recent commit 
 
+- `git branch -l`              => list the local branches
+- `git branch -a`              => list all branches, local and remote
 
