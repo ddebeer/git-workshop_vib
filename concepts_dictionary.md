@@ -142,3 +142,4 @@ a new branch. If not, you get a *detached HEAD*.
 
 By using `git shwich -c <new name>` you can create a new branch from that commit.
 
+

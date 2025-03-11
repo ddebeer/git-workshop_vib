@@ -68,6 +68,7 @@
 - `git tag -d <name>` => delete the tag  BUT not on github, should be deleted manually.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Branching
 
@@ -87,3 +88,4 @@
 - `git chekcout <commit ID>`   => jumps to the chosen commit (i.e., travel in time)
 - `git switch -c <new branch>` => create a new branch after traveling to a commit (in the path).
 
+- `git log --graph --all`    => give a visual overview of all the branches
