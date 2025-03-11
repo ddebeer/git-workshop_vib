@@ -69,3 +69,6 @@
 
 ##Mirror effect
 - `git checkout <branch name>`: move between branches
+
+- `git branch <branch name>`: create a branch 
+-`git branch -a`: list all branches, both locally and remotely 

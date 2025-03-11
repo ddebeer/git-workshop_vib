@@ -116,3 +116,8 @@
 
 ## Mirror effect
 When working in different branches, it is crucial that you are aware in which branch you are working. As only changes in this branch are showed. When checking out to another branch, these changes are not visible anymore. 
+
+## What is a branch
+A branch is an individual timeline, different from the main. Up to the branch point, changes are common in all timelines. Starting from the branch point, the timeline will be independent. 
+It is interesting for collaboration, do risk free experiments, working on the same issue. 
+
