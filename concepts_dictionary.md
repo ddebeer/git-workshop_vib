@@ -113,3 +113,6 @@
 ## Tagging
 
 - use tags to refer to a specific commit: Easy to find, easy to download as .zip
+
+## Mirror effect
+When working in different branches, it is crucial that you are aware in which branch you are working. As only changes in this branch are showed. When checking out to another branch, these changes are not visible anymore. 

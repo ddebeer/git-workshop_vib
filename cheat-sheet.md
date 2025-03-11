@@ -66,3 +66,6 @@
 - `git tag <name> <commit ID>`  => give the commit of choice a name.
 - `git push --tags`  => push all the tags to the remote repository
 - `git tag -d <name>` => delete the tag  BUT not on github, should be deleted manually.
+
+##Mirror effect
+- `git checkout <branch name>`: move between branches
