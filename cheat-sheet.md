@@ -91,3 +91,11 @@
 - `git log --graph --all`    => give a visual overview of all the branches
 
 
+## merging
+
+- `git merge <branch names>` => tries to merge the (HEAD of the) chosen branch with
+                                the (HEAD of the) currently active branch. If merging
+                                automatically is not possible, conflicts will need
+                                to be resolved and commited.
+
+- `git branch -d <branch name>` => delete a branch

@@ -147,3 +147,5 @@ By using `git shwich -c <new name>` you can create a new branch from that commit
 
 After two branches are merged, it is possible to delete  a branch. Yet this implies
 that a part of the history is lost.
+
+You can delete a branch using `git branch -d <branch name>`.
