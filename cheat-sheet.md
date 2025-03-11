@@ -66,3 +66,14 @@
 - `git tag <name> <commit ID>`  => give the commit of choice a name.
 - `git push --tags`  => push all the tags to the remote repository
 - `git tag -d <name>` => delete the tag  BUT not on github, should be deleted manually.
+
+
+## Branching
+
+- `git branch <branch name>`   => creates a new branch with a chosen name
+- `git chekcout <branch name>` => jumps to the chosen branch, new commits are
+                                  added to that branch.
+- `git chekcout <commit ID>`   => jumps to the chosen commit (i.e., travel in time)
+- `git chekcout HEAD`          => jumps to the most recent commit 
+
+

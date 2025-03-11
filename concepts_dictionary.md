@@ -113,3 +113,13 @@
 ## Tagging
 
 - use tags to refer to a specific commit: Easy to find, easy to download as .zip
+
+
+
+## Branching
+
+A "branch" is an "alternative history", an new path of commits that can 
+  (but does not have to) be merged to the main branch at a later stage.
+- great for experimenting
+- great for collaborations where multiple persons work on the same issue/file
+- after merging, the branch history still exist. Hence, you can go back to commits in this branch
