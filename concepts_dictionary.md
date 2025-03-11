@@ -134,3 +134,5 @@ confusing!
 When you go back in history, for instance by using `git checkout <commit ID>`, it 
 is possible, BUT NOT ADVISED, to "change the past". If you do this, YOU SHOULD create 
 a new branch. If not, you gat a *detached HEAD*.
+
+By using `git shwich -c <new name>` you can create a new branch from that commit.
